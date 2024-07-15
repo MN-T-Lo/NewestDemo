@@ -40,7 +40,6 @@ public class DataPersistence : MonoBehaviour
     }
     public void Load()
     {
-        Debug.Log(Application.persistentDataPath);
         string path = Application.persistentDataPath + "/savefile.json";
         if (File.Exists(path))
         {
